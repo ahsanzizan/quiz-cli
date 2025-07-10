@@ -5,17 +5,17 @@
       {
         "key": "A",
         "value": "Thor",
-        "IsCorrect": true
+        "is_correct": true
       },
       {
         "key": "B",
-        "value": "Thor",
-        "IsCorrect": true
+        "value": "Jormungandr",
+        "is_correct": false
       },
       {
         "key": "C",
-        "value": "Thor",
-        "IsCorrect": true
+        "value": "Loki",
+        "is_correct": false
       }
     ]
   }
