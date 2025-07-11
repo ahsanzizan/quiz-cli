@@ -91,8 +91,8 @@ func main() {
 			fmt.Scan(&userAnswer)
 
 			// If the key does not exist, then print "Your answer is invalid, please answer properly this time." -> Re-prompt (While true loop)
-			answer, isFound := findAnswerByKey(question.Answers, userAnswer)
-			if !isFound {
+			answer, found := findAnswerByKey(question.Answers, userAnswer)
+			if !found {
 				// Reloop current question
 				fmt.Printf("Your answer (%s) is not recognized as a valid answer to the question.", userAnswer)
 				continue
